@@ -158,7 +158,7 @@ LOGGING = {
 }
 
 # Email settings
-CONTACT_EMAIL = 'mmr7@rice.edu'
+CONTACT_EMAIL = 'puzzlehuntrice@gmail.com'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'

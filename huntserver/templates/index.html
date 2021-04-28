@@ -10,7 +10,7 @@
 <div class="container">
   <div id='logos'>
     <p align="center">
-      <a href="{% url 'huntserver:registration' %}"> <img id="phlogo" src='/static/huntserver/phcmulogo.png' /></a>
+      <a href="{% url 'huntserver:registration' %}"> <img id="phlogo" src='/static/huntserver/rice_escape_logo.png' /></a>
     </p>
     <p align="center"><strong>
         {% if curr_hunt.is_locked %}
@@ -47,11 +47,8 @@
   <div id='qa'>
     <h2>Who are we?</h2>
     <p>
-      We are Rice Puzzlehunt, a group of puzzle enthusiasts from Rice University. We work together to solve Puzzle Hunts
-      such as the <a href="http://www.mit.edu/~puzzle/">MIT mystery hunt</a>, or any of the many tech company puzzle
-      hunts (examples of such companies include Microsoft, APT and Palantir). We also write and host CMU's very own
-      puzzle hunt once a semester, with the goal of providing a fun-filled experience to as many members of the
-      community as possible.
+      We are Rice Escape, a group of puzzle enthusiasts from Rice University. We create escape rooms once a semester, with the goal of providing a fun-filled experience to as many members of the
+      community as possible. Given covid and social distancing policies this year, we are creating a completely virtual puzzlehunt for the Rice community and puzzle community.
     </p>
     <h2>What is a puzzle hunt?</h2>
     <p>
@@ -67,7 +64,7 @@
     <h2>Wait that sounds cool, can I participate?</h2>
     <p>Yeah, check out our <a href="{% url 'huntserver:current_hunt_info' %}">current hunt page</a>!</p>
     <h2>Wait, I have more questions!</h2>
-    <p>Email the <a href="mailto:{% contact_email %}?subject=Puzzle%20Hunt%20Question">HALP?! LINE</a>
+    <p>Email the <a href="mailto:{% contact_email %}?subject=Puzzle%20Hunt%20Question">game hosts</a>
       ({% contact_email %}) with "Puzzle Hunt" somewhere in the subject line.</p>
   </div>
 </div>
