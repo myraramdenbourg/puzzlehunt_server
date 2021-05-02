@@ -68,6 +68,26 @@ $(function() {
             'url': '/static/huntserver/bg/vermeer.png',
             'h': p_height,
             'w': p_width
+        },
+        {
+            'url': '/static/huntserver/bg/denial.png',
+            'h': l_height,
+            'w': l_width
+        },
+        {
+            'url': '/static/huntserver/bg/rome.png',
+            'h': l_height,
+            'w': l_width
+        },
+        {
+            'url': '/static/huntserver/bg/socrates.png',
+            'h': l_height,
+            'w': l_width
+        },
+        {
+            'url': '/static/huntserver/bg/mom.png',
+            'h': p_height,
+            'w': p_width
         }
     ]
     var output = "";
