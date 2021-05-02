@@ -3,7 +3,7 @@ nav { padding-right: 10px; }
 
 body {
  	background-size: 500px;
-	background-position: center;
+	/* background-position: center; */
 }
 
 #painting-wrapper {
