@@ -39,6 +39,10 @@
     <a href="{% url 'huntserver:contact_us' %}"> Contact Us </a>
   </li>
 
+  <li>
+    <a href="/info/about/"> About Us </a>
+  </li>
+
   <li class='{% active_page request "current_hunt" %}'>
     {% set_curr_hunt %}
     <a href="{% url 'huntserver:current_hunt' %}"> Latest Hunt </a>

@@ -39,19 +39,19 @@ body {
 
 @media (min-width: 768px) {
 	.container {	
-		width: 750px !important;
+		width: 500px !important;
 	}
 }
 
 @media (min-width: 992px) {
 	.container {	
-		width: 750px !important;
+		width: 600px !important;
 	}
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
 	.container {	
-		width: 970px !important;
+		width: 900px !important;
 	}
 }

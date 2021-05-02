@@ -43,30 +43,16 @@
     </p>
     {% endif %}
   </div>
-
-  <div id='qa'>
-    <h2>Who are we?</h2>
-    <p>
-      We are Rice Escape, a group of puzzle enthusiasts from Rice University. We create escape rooms once a semester, with the goal of providing a fun-filled experience to as many members of the
-      community as possible. Given covid and social distancing policies this year, we are creating a completely virtual puzzlehunt for the Rice community and puzzle community.
-    </p>
-    <h2>What is a puzzle hunt?</h2>
-    <p>
-      Very simply put, it's an event where people get together to solve carefully designed puzzles which somehow link
-      together on a larger scale.
-      <br>
-      A puzzle hunt is typically characterized by its structure. In addition to several normal puzzles, each round has a
-      meta-puzzle, which requires teams to have solved most of the normal puzzles to even unlock, and often requires
-      solvers to incorporate answers from that round's normal puzzles to make sense of.
-      <br>
-      Our puzzle hunt's structure changes from semester to semester so as to provide new challenges for solvers.
-    </p>
-    <h2>Wait that sounds cool, can I participate?</h2>
-    <p>Yeah, check out our <a href="{% url 'huntserver:current_hunt_info' %}">current hunt page</a>!</p>
-    <h2>Wait, I have more questions!</h2>
-    <p>Email the <a href="mailto:{% contact_email %}?subject=Puzzle%20Hunt%20Question">game hosts</a>
-      ({% contact_email %}) with "Puzzle Hunt" somewhere in the subject line.</p>
+  
+  <div style="text-align:center">
+    <a href='/info/about/' class="btn btn-primary btn-sm" style="margin:1em 0.3em" role="button">
+      About Us
+    </a>
+    <a href="{% url 'huntserver:current_hunt' %}" style="margin:1em 0.3em" class="btn btn-primary btn-sm" role="button">
+      The Latest Hunt
+    </a>
   </div>
+
 </div>
 {% endblock content %}
 {% block footer %}{% endblock %}
