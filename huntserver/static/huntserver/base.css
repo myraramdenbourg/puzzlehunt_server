@@ -8,13 +8,15 @@ body {
 
 #painting-wrapper {
 	display: block;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
-	height: calc(100% - 5em) !important;
+	height: 100% !important;
 	width: 100%;
-	margin: 5em auto 0 auto;
+	margin: 0 auto 0 auto;
     overflow: hidden;
+    background: url(/static/huntserver/bg/ornament-4216829_640.jpg);
+	border-top: 5em solid transparent;
 	/* opacity: 0;
 	transition: opacity 1s; */
 }
