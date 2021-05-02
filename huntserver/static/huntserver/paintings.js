@@ -5,7 +5,7 @@ $(function() {
         l_width = 400;
     var paintings = [
         {
-            'url': '/static/huntserver/bg/mona-lisa.png',
+            'url': '/static/huntserver/bg/lisa-lisa.webp',
             'h': p_height,
             'w': p_width
         },
